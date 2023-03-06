@@ -1,0 +1,68 @@
+.main-heading{
+    color: rgb(33, 202, 27);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.Show-box{
+    height: 50vh;
+    width: 40vh;
+    border-radius: 10px solid rgb(164, 215, 164);
+}
+.main-text{
+    color: rgb(68, 184, 226);
+    margin-left: 20px;
+}
+.Registration-veh{
+    display: flex;
+    align-items: center;
+}
+
+ button {
+    height: 5vh;
+    width: 10vh;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #fff;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+  }
+
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #5D5D5D;
+  }
+  
+  input[type="submit"],
+  input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="button"]:hover {
+    background-color: #3e8e41;
+  }
+  

@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+  }
+  
+  label,
+  .Parking-create-text-input,
+  button {
+    margin: 10px;
+  }
+  .heading-park{
+
+    margin-top: 10vh;
+    /* margin-left: -40vh; */
+    font-size: larger ;
+    font-weight: 12000;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(155, 72, 234);
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form label,
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"],
+  form textarea,
+  form select,
+  form button {
+    margin: 10px 0;
+  }
+  .parkig-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #333;
+  }
+  .Parking-create-submitbutton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+.Parking-create-submitbutton:hover {
+    background-color: #fff;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+  }
+  
+
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #5D5D5D;
+  }
+  
+  input[type="submit"],
+  input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="button"]:hover {
+    background-color: #3e8e41;
+  }
+  
